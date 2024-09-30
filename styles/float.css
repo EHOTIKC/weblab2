@@ -57,9 +57,7 @@ a:hover{
 #menu{
   font-size: 14px;
 }
-#content{
-  font-size: 14px;
-}
+
 
 
 .container {
@@ -67,7 +65,8 @@ a:hover{
   min-height: 100vh;
   overflow: hidden;
   position: relative;
-  
+  font-size: 15px;
+
 
 }
 
@@ -96,6 +95,7 @@ a:hover{
   width: 100%;
   box-sizing: border-box;
   background-image: url(blueBG.jpg);
+  
 
 }
 
@@ -146,6 +146,7 @@ a:hover{
   float: left;
   box-sizing: border-box;
   background-image: url(blueBG.jpg);
+  
 
 }
 
@@ -153,4 +154,36 @@ a:hover{
   content: "";
   display: table;
   clear: both;
+}
+
+
+.X{
+
+  
+  background-color: white;
+  border: 1px solid black;
+  text-align: center;
+  margin-left: clamp(5px, 2vw, 100px);
+  font-size: 14px;
+  padding: 10px;
+
+  float: right;
+
+  position: relative;
+  right: 10px;
+  top: 50%;
+}
+.Y{
+  background-color: white;
+  border: 1px solid black;
+  text-align: center;
+  margin-right: clamp(5px, 2vw, 100px);
+  font-size: 14px;
+  padding: 10px;
+
+  float: left;
+
+  position: relative;
+  left: 10px;
+  top: 50%;
 }

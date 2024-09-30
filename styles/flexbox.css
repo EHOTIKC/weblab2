@@ -59,9 +59,7 @@ a:hover{
 #menu{
   font-size: 14px;
 }
-#content{
-  font-size: 14px;
-}
+
 
 
 .container {
@@ -132,10 +130,13 @@ a:hover{
 
 .block1 {
   width: 100%;
-  background-color: #b3cde0;
   height: 25vh;
-  background-image: url(blueBG.jpg);
 
+  background-color: #b3cde0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(blueBG.jpg);
 
 }
 
@@ -158,11 +159,36 @@ width: 25%;
 background-color: #b3cde0;
 height: 25vh;
 width: 100%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
 background-image: url(blueBG.jpg);
 
 
 }
 
+.X{
+  justify-content: flex-end;
+  background-color: white;
+  border: 1px solid black;
+  text-align: center;
+  margin-left: clamp(5px, 2vw, 100px);
+  font-size: 14px;
+  padding: 10px;
+
+
+}
+.Y{
+  background-color: white;
+  border: 1px solid black;
+  text-align: center;
+  margin-right: clamp(5px, 2vw, 100px);
+  font-size: 14px;
+  padding: 10px;
+
+}
 @media (min-width: 2000px) {
   .box {
       font-size: 2rem;
