@@ -73,7 +73,7 @@ a:hover{
 
 .leftDiv {
   float: left;
-  width: calc(25%);
+  width: calc(30%);
   height: 50vh;
   background-color: #f9d5b5;
   display: flex;
@@ -122,7 +122,7 @@ a:hover{
 .block3 {
   background-color: #ffffff;
   height: 50vh;
-  width: calc(75%);
+  width: calc(70%);
   float: left;
   box-sizing: border-box;
   background-image: url(bgImg.jpg);
