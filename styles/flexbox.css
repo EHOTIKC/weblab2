@@ -192,7 +192,7 @@ background-image: url(blueBG.jpg);
   padding: 10px;
 
 }
-@media (max-width:500px) {
+@media (max-width:430px) {
   .container {
     flex-direction: column;
   }
@@ -201,11 +201,15 @@ background-image: url(blueBG.jpg);
     flex-basis: 100%;
     height: auto;
   }
+  .block1, .block2, .block3, .block4, .block2, .block5, .block6{
+    min-height: calc(100vh / 6); 
 
+  }
   .block3, .block4, .block2, .block5 {
     width: 100%;
     flex-basis: 100%;
     height: auto;
+    
   }
 
   .block6 {
