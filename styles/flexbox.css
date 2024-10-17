@@ -192,9 +192,24 @@ background-image: url(blueBG.jpg);
   padding: 10px;
 
 }
-@media (min-width: 2000px) {
-  .box {
-      font-size: 2rem;
-      padding: 1.5em;
+@media (max-width:500px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .leftDiv, .bottom2356 {
+    flex-basis: 100%;
+    height: auto;
+  }
+
+  .block3, .block4, .block2, .block5 {
+    width: 100%;
+    flex-basis: 100%;
+    height: auto;
+  }
+
+  .block6 {
+    height: auto;
+    flex-basis: 100%;
   }
 }
